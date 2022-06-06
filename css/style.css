@@ -1,0 +1,140 @@
+*{
+    background-color: #3F3D56;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*---------------------
+    Search Bar style 
+----------------------- */
+.extra-style{
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.extra-style input{
+    border: 5px solid #17F5AB;
+    background: none;
+    font-size: 20px;
+}
+.header-area h1{
+  color: #17F5AB;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.btn-style{
+    background: none;
+    border: 4px solid #17F5AB;
+    font-size: 23px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #17F5AB;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .4s linear;
+    letter-spacing: 1px;
+}
+.btn-style:hover{
+    background-color: #17F5AB;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*--------------------
+    Show Card style
+---------------------- */
+.card-design{
+   background-color: none;
+}
+.card{
+    background: none !important;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2),
+               5px 5px 5px rgba(0,0,0,0.2),
+                5px -5px 15px rgba(0,0,0,0.2),
+                -5px -5px 15px rgba(0,0,0,0.2);
+    width: 98%;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.details-Btn{
+    background: none;
+    border: 2px solid #17F5AB;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #17F5AB;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .4s linear;
+    letter-spacing: 1px;
+}
+.details-Btn:hover{
+    background-color: #17F5AB;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* details Phone  */
+.textDesign{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 600px;
+    margin: 20px auto;
+}
+.text-design{
+    color: #17F5AB;
+    font-size: 24px;
+}
+.details-img{
+    width: 30%;
+    margin: 20px 400px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* mobile Device  */
+@media only screen and (max-width:688px){
+    .extra-style{
+        width: 300px;
+    }
+    .textDesign{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        margin: 20px 0px;
+    }
+    .details-img{
+        width: 60%;
+        margin: 20px 50px;
+        border-radius: 10px;
+    }
+    .extra{
+        padding: 5px 0;
+        font-size: 10px;
+        text-align: start;
+    }
+}
